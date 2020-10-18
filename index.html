@@ -3,16 +3,17 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" type="text/css" href="style-media.css"/>
 		<title>Landing</title>
 	</head>
 	
 	<body>
 	<!--Header-->
 		<div class="header-bg">
-
+			<div class="header-shadow">
 			<header>
 				<div class="logo">
-				<a href="#"><img src="logoWhite.png" alt="Logotip"/></a>
+				<a href="#"><img src="images/logoWhite.png" alt="Logotip"/></a>
 			</div>
 					
 				<nav class="menu">
@@ -28,7 +29,7 @@
 					<a href="#" class="header-text__bottom">Start free 14 days trial</a>
 					<p class="header-text__stext">No credit card required</p>					
 			</div>
-
+			</div>
 		</div>
 	
 	<!--Advantages-->
@@ -63,20 +64,81 @@
 		</div>
 	
 	<!--Graphics-->	
-		<div class="graph">
-			<div class="graph-text">
-				<h3 class="graph-text__big-text big-text">Manage everything faster in single place.</h3>
-				<p class="graph-text__text-medium text-medium">
+		<div class="graph-bg">
+			<div class="graph">
+				<div class="graph-images">
+					<img src="images/bitmap1.png" alt="Cent" class="graph-img img-top"/>
+					<img src="images/bitmap2.png" alt="Analitics" class="graph-img img-bottom"/>
+				</div>
+			
+				<div class="graph-text">
+					<h3 class="graph-text__big-text big-text">Manage everything faster in single place.</h3>
+					<p class="graph-text__text-medium text-medium">
+						Create custom landing pages with Berlin that convert more visitors than any website.
+						With lots of unique blocks, you can easily build a page without coding.
+					</p>
+					<a href="#" class="graph-text__button button-start">Start free 14 days trial</a>
+				</div>
+			</div>
+		</div>
+		
+	<!--Activity-->	
+		<div class="activity-conteiner">
+			<div class="activity-text">
+				<h3 class="activity-text__big-text big-text">Build better team work faster and better!</h3>
+				<p class="activity-text__text-medium text-medium">
 					Create custom landing pages with Berlin that convert more visitors than any website.
 					With lots of unique blocks, you can easily build a page without coding.
 				</p>
-				<a href="#" class="graph-text__button">Start free 14 days trial</a>
+				<a href="#" class="activity-text__button button-start">Start free 14 days trial</a>
 			</div>
 			
-			<img src="bitmap1.png" alt="Cent" class="graph-img img-top"/>
-			<img src="bitmap2.png" alt="Analitics" class="graph-img img-bottom"/>
+			<div class="activity-images">
 			
-			<div class="clr"></div>
+				<img src="images/activity1.png" alt="Activity" class="activity-img-left"/>
+		
+				<img src="images/activity2.png" alt="Uploading" class="activity-img-right"/>
+			</div>
+		</div>
+	
+	<!--Movie-->	
+		<div class="movie-container">
+			<video controls="controls" poster="movie/movie-bg.png" class="movie-video">
+				<source src="movie/movie.ogv" type='video/ogg; codecs="theora, vorbis"'/>
+				<source src="movie/movie.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
+			</video>
+			
+			<div class="movie-bg">
+				<div class="movie-shadow">
+					<div class="movie-conteiner">
+						<div class="movie-button">
+							<div class="movie-button__shadow">
+								<div class="movie-button__rect"></div>
+							</div>
+						</div>
+						<h3 class="movie-text__big-text big-text">We help you to be successful</h3>
+						<p class="movie-text__text-medium text-medium">
+							Wireframes are generally created by business analysts, user experience designers,
+							developers, visual designers, and by those with expertise
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	<!--Choose a plan-->	
+		<div class="plan-bg">
+			<div class="plan-conteiner">
+				<h3 class="plan-text__big-text big-text">Choose a plan to start</h3>
+				<p class="plan-text__text-medium text-medium">
+					Wireframes are generally created by business analysts, user experience designers,
+					developers, visual designers, and by those with expertise
+				</p>
+				<div class="plan-toggle">
+					<div class="toggle-buttom toggle-month">Monthly</div>
+					<div class="toggle-buttom toggle-year toggle-active">Yearly</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
